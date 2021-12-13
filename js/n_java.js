@@ -1,0 +1,74 @@
+$(function(){
+    $('.li-tampil').click(function(){
+        $('.input').css({
+            display:'none',
+        });
+        $('.sub-satu').css({
+            display:'block',
+        });
+    });
+    $('.li-input').click(function(){
+        $('.input').css({
+            display:'block',
+        });
+        $('.sub-satu').css({
+            display:'none',
+        });
+    });
+    
+    $('.edt-guru').click(function(){
+        $('.update-guru').css({
+            display:'block'
+        });
+    });
+     $('#guru button[type=reset]').click(function(){
+         $('#guru').css({
+             right:'-30%'
+         });
+     });
+    $('#tg').click(function(){
+        $('#guru').css({
+            right:'0'
+        });
+    });
+    $('#siswa button[type=reset]').click(function(){
+         $('#siswa').css({
+             right:'-30%'
+         });
+     });
+    $('#ts').click(function(){
+        $('#siswa').css({
+            right:'0'
+        });
+    });
+    $('#jadwal button[type=reset]').click(function(){
+         $('#jadwal').css({
+             right:'-30%'
+         });
+     });
+    $('#tj').click(function(){
+        $('#jadwal').css({
+            right:'0'
+        });
+    });
+    $('#nilai button[type=reset]').click(function(){
+         $('#nilai').css({
+             right:'-30%'
+         });
+     });
+    $('#tn').click(function(){
+        $('#nilai').css({
+            right:'0'
+        });
+    });
+    $('#pelajaran button[type=reset]').click(function(){
+         $('#pelajaran').css({
+             right:'-30%'
+         });
+     });
+    $('#tm').click(function(){
+        $('#pelajaran').css({
+            right:'0'
+        });
+    });
+});

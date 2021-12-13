@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0 auto;
+    font-family: "calibri";
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+header,main{
+    width: 100%;
+}
+header{
+    height: 50px;
+}
+header{
+    background: #f8f8f8;
+	border-bottom:solid 1px lightgray;
+}
+main{
+    height: auto;
+}
+.sub-header{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+}
+.sub-header ul{
+    list-style: none;
+}
+.sub-header li{
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.sub-header li:hover{
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+.container{
+    width: 90%;
+    height: auto    ;    
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.container table{
+    width: 100%;
+}
+.sub-satu{
+    width: 100%;
+    height: auto;
+}
+.tr-atas{
+    background: green;
+    color: white;
+    height: 40px;
+    font-family: "calibri";
+    text-align: center;    
+}
+.guru,.siswa{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.jadwal,.nilai,.pelajaran{
+    width: 32.5%;
+    height: auto;
+    margin-bottom: 20px;
+}
+#sama{
+    float: left;
+    margin-right: 10px;
+}
+.input{
+    width: 100%;
+    height: auto;   
+    display: none;
+    margin-bottom: 20px;
+}
+.input p,.edit p,.edit-pro p,.edit-semi p{
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.input form{
+    margin-left: 5px;
+}
+.edit form,.edit-pro form,.edit-semi form{
+    margin-left: 20px;
+}
+.sub-satu p{
+    text-align: center;
+    background: #f8f8f8;
+    color: black;
+    height: 40px;
+    line-height: 40px;
+    font-weight: bold;
+    border: solid 1px lightgray;
+}
+.input input,.edit input,.edit-semi input,.edit textarea,.edit-pro input,.edit-pro textarea{
+    width: 90%;
+    height: 30px;
+    border: solid 1px lightgray;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.edit textarea,.edit-pro textarea{
+    height: 100px;
+    font-family:"calibri";
+    font-size: 15px;
+}
+.input button,.edit button,.edit-pro button,.edit-semi button{
+    width: 44.5%;
+    height: 30px;
+    border-radius: 3px;
+    border: 0;
+    margin-bottom: 10px;
+    color: white;
+}
+.input button[type="submit"],.edit button[type="submit"],.edit-pro button[type="submit"],.edit-semi button[type="submit"]{
+    background: blue;
+}
+.input button[type="reset"],.edit button[type="reset"],.edit-pro button[type="reset"],.edit-semi button[type="reset"]{
+    background: green;
+}
+
+.input-guru,.input-siswa,.input-nilai,.input-jadwal,.input-mapel{
+    width: 220px;
+    height: auto;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+}
+#inpt{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.edit,.edit-pro,.edit-semi{
+    width: 250px;
+    height: auto;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: white;
+}
+.edit-semi{
+    margin: 0;
+}
+.edit-pro{
+    width: 55%;
+}
+.edit-pro td{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.edit label,.edit-pro{
+    padding-left: 5px;
+}
+.sub-header form{
+	float:right;
+	margin-top:10px;
+}
+.sub-header input{
+	border:solid 1px lightgray;
+	height:30px;
+	width:300px;
+	border-radius:3px 0px 0px 3px;
+	padding-left:10px;
+	
+	}
+	table,tr,td{
+	border-collapse:collapse;
+	}
+.container th,.container td,.lihat th{
+    height: 30px;
+    font-weight: normal;
+}
+.container table{
+    border-left: solid 1px lightgray;
+    border-right: solid 1px lightgray;
+}
+
+.content{
+width:80%;
+height:695px;
+margin:0 auto;
+background:white;
+margin-top:20px;
+    margin-bottom: 20px;
+}
+.kotak{
+    width: 90%;
+    height: 580px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#semi{
+    float: left;
+}
+.header{
+    height: 23%;
+}
+.isi-header{
+    height: 100%;
+    float: left;
+}
+#left-header{
+    width: 15%;
+    background: yellow;
+}
+#main-header{
+    width: 70%;
+}
+#main-header table{
+    margin-left: 10px;   
+}
+#main-header td{
+    height: 26px;
+}
+#right-header{
+    width: 15%;
+}
+#right-header table,.lihat table{
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+.td1{
+    border-bottom: solid 1px lightgray;
+    width: 100%;
+    height: 60px;   
+}
+.sub{
+    background: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border:0;
+    border-radius: 3px;
+}
+.atas form{
+    margin-left: 300px;
+    margin-top: 10px;
+}
+.atas select{
+    width: 150px;
+    height: 30px;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.atas option{
+    text-align: center;
+}
+.td1 span{
+    text-align: center;
+    padding-left: 25px;
+    font-size: 50px;
+    font-family: "tahoma";
+}
+.td2{
+    height: 45px;
+    width: 100%;
+    border-bottom: solid 1px lightgray;
+}
+.td2 span{
+    font-size: 25px;
+    padding-left: 20px;
+}
+.td3{
+    width: 50%;
+    height: 45px;
+    text-align: center;
+    
+}
+.isi table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+}
+.isi th,.lihat th{
+    height: 30px;
+    background-color: green;
+    color: white;
+}
+.isi td{
+    height: 30px;
+    color: 
+}
+
+main tr:hover{
+    cursor: pointer;
+    background-image: linear-gradient(#ddd,lightgray);
+}
+.isi{
+    overflow: auto;
+    height: 430px;
+    
+}
+.delete,.print{
+    float: right;
+    margin-right: 10px;
+    width: 150px;
+    height: 30px;
+    background: green;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 3px;
+    margin-top: 13px;
+}
+#left-header img{ 
+    width: 100%;
+    height: 100%;
+}
+.print{
+    background-color: blue;
+    border: 0;
+}
+.cari{
+    height: 30px;
+    border: 0;
+    margin-left: -3px;
+    color: white;
+    background: green;
+    width: 80px;
+    border-radius: 0px 3px 3px 0px;
+    
+}
+.input-guru select,.input-siswa select,.input-jadwal select,.input-mapel select,.input-nilai select,.edit-semi select{
+    width: 95%;
+    height: 30px;
+    border: solid 1px lightgray;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.edit-semi select{
+    width: 90%;
+}
+.input-jadwal option,
+.input-siswa option,
+.input-guru option,
+.input-mapel option,
+.input-nilai option{    
+    padding-left: 10px;
+}
+.input-guru textarea,.input-siswa textarea{
+    width: 90%;
+    height: 60px;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    font-size: 13px;
+    padding-left: 10px;
+    font-family: "calibri";
+}
+.container img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.tambah,.see{
+    border: 0;
+    width: 80px;
+    height: 30px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 5px;
+    border-radius: 3px;
+    background-color: steelblue;
+    color: white;
+    transition:  all 0.3s ease-in-out;
+}
+.see{
+    background-color:purple;
+}
+.tambah:hover{
+    cursor: pointer;
+    background: white;
+    color: steelblue;
+    border: solid 1px steelblue;
+}
+.see:hover{
+    cursor: pointer;
+    background: white;
+    color: purple;
+    border: solid 1px purple;
+}
+.deleteall{
+    float: right;
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: firebrick;
+    margin-top: 5px;
+    margin-right: 10px;
+    line-height: 30px;
+    color: white;
+}
+.in-input{
+    background: rgba(0,0,0,0.5);
+    width: 28%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: -30%;
+    transition: all 0.5s ease-in-out;
+}
+.isi-input{
+    width: 300px;
+    height: auto;
+    background: white;
+    border-radius: 3px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+.isi-input p{
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+    text-decoration: underline;
+}
+.isi-input form{
+    margin-left: 15px;
+}
+.isi-input input{
+    width: 90%;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px lightgray;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.isi-input select{
+    width: 94%;
+    margin-bottom: 10px;
+    height: 30px;
+    border-radius: 3px;
+    padding-left: 10px;
+    border: solid 1px lightgray;
+}
+.isi-input option{
+    padding-left: 10px;
+}
+.isi-input textarea{
+    width: 90%;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    font-family:"calibri";
+    font-size: 13px;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+}
+.isi-input button{
+    width: 47%;
+    height: 40px;
+    margin-bottom: 10px;
+    border: 0;
+    border-radius: 3px;
+    color: white;
+}
+.isi-input button[type="submit"]{
+    background: blue;
+}
+.isi-input button[type="reset"]{
+    background: green;
+}
+.atas{
+    width: 100%;
+    height: 50px;
+    border-bottom: solid 1px lightgray;
+}
+.x{
+    width: 30px;
+    height: 30px;
+    border: 0;
+    float: right;
+    border: solid 1px gray;
+    border-radius: 50%;
+    background: white;
+    color: gray;
+    margin-top: 5px;
+    position: relative;
+    margin-right: 5px;
+}
+.atas form{
+    float: left;
+}
+.atas input{
+    margin: 0 auto;
+    width: 300px;
+    height: 30px;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    padding-right: 10px;
+    background-color: #f8f8f8;
+    font-family: "calibri";
+    font-size: 14px;
+    margin-left: 400px;
+    margin-top: 0px;
+    padding-left: 10px;
+}
+.jml{
+    width: auto;
+    height: 20px;
+    background: maroon;
+    color: white;
+    font-weight: normal;
+    padding: 3px;
+    border-radius: 50%;
+}
+.page{
+    padding-left: 10px;
+    color: blue;
+}
+.page:visited{
+    color: black;
+}
+.plus{
+    border: 0;
+    border-radius: 3px;
+    background: green;
+    color: white;
+}
+.plus:hover{
+    cursor: pointer;
+    background: white;
+    color: green;
+    border: solid 1px green;
+}
+#tengah{
+    margin: 0 auto;
+    float: none;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.lihat{
+    width: 78.2%;
+    height: 100%;
+    margin-left: 10px;
+    background: white;
+    overflow: auto;
+    border: solid 1px lightgray;
+}
+.lihat td{
+    height: 30px;
+}
